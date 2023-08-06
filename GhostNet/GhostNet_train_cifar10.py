@@ -9,7 +9,7 @@ from torchvision import datasets
 from torch.utils.data import DataLoader
 import torch.optim as optim
 from tqdm import tqdm
-from GhostNet.model.GhostNet_CIFAR import ghostnet
+from model.GhostNet_CIFAR import ghostnet
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--num_classes', type=int, default=10)
